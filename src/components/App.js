@@ -14,9 +14,10 @@ const GlobalStyle = createGlobalStyle`
 function App() {
   return (
     <>
-      <GlobalStyle/>
-      <h1>App</h1>
-      <Button>Test</Button>
+      <GlobalStyle />
+      <h1>App</h1>      
+      <Button>Primary Button</Button>
+      <Button secondary>Secondary Button</Button>
     </>
   );
 }
