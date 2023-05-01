@@ -1,5 +1,10 @@
+import { PageLayout } from 'components/common';
 import React from 'react';
 
 export default function Home() {
-  return <div>Home</div>;
+  return (
+    <PageLayout>
+      Home
+    </PageLayout>
+  );
 }
